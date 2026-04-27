@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Privacy Policy | TAUM — Call notes & Follow-ups</title>
+  <style>
+    :root {
+      --bg: #f3f8ff;
+      --surface: rgba(255, 255, 255, 0.88);
+      --surface-strong: #ffffff;
+      --text: #0d1b2a;
+      --muted: #52657b;
+      --brand: #073a95;
+      --accent: #ffc92e;
+      --accent-2: #147ee8;
+      --border: #d0deee;
+      --shadow: 0 24px 80px rgba(7, 58, 149, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background:
+        radial-gradient(circle at top left, rgba(255, 201, 46, 0.20), transparent 30%),
+        radial-gradient(circle at top right, rgba(20, 126, 232, 0.14), transparent 28%),
+        linear-gradient(180deg, #ffffff 0%, var(--bg) 45%, #eef5ff 100%);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    body {
+      padding: 24px;
+    }
+
+    .page {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--brand) 0%, #0b4ec4 52%, var(--accent-2) 100%);
+      color: white;
+      border-radius: 28px;
+      padding: 32px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto -60px -60px auto;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: rgba(255, 201, 46, 0.18);
+      filter: blur(6px);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 999px;
+      padding: 8px 14px;
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      font-size: 14px;
+      letter-spacing: 0.02em;
+    }
+
+    h1, h2, h3, p { margin: 0; }
+
+    h1 {
+      margin-top: 18px;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+      max-width: 12ch;
+    }
+
+    .hero p {
+      margin-top: 14px;
+      max-width: 60ch;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 1.02rem;
+    }
+
+    .meta {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+    }
+
+    .content {
+      margin-top: 20px;
+      background: var(--surface);
+      border: 1px solid rgba(208, 222, 238, 0.8);
+      backdrop-filter: blur(18px);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 28px;
+    }
+
+    .section + .section {
+      margin-top: 28px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 1rem;
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+
+    p, li {
+      color: var(--text);
+      font-size: 0.98rem;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    li + li {
+      margin-top: 6px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .callout {
+      border-radius: 18px;
+      padding: 16px 18px;
+      background: linear-gradient(180deg, rgba(255, 201, 46, 0.16), rgba(255, 201, 46, 0.08));
+      border: 1px solid rgba(255, 201, 46, 0.28);
+    }
+
+    .footer {
+      margin: 18px 0 6px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      text-align: center;
+    }
+
+    a {
+      color: var(--accent-2);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, monospace;
+      background: rgba(13, 27, 42, 0.06);
+      padding: 0.15em 0.35em;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 16px; }
+      .hero, .content { padding: 22px; border-radius: 22px; }
+      h1 { max-width: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero" aria-labelledby="policy-title">
+      <span class="badge">TAUM — Call notes & Follow-ups</span>
+      <h1 id="policy-title">Privacy Policy</h1>
+      <p>
+        This page explains how the app accesses, uses, stores, and shares data when you use call notes, reminders,
+        contacts, cloud backup, and subscription features.
+      </p>
+      <div class="meta" aria-label="Policy meta">
+        <span class="pill">Effective date: <strong>[DATE]</strong></span>
+        <span class="pill">Contact: <strong>[EMAIL]</strong></span>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="section">
+        <h2>1. Information We Access and Collect</h2>
+        <p class="muted">The app is designed to work offline first. Most note data is stored locally on your device.</p>
+        <h3>We may access and collect:</h3>
+        <ul>
+          <li><strong>Contact information</strong> - contact names, phone numbers, and contact identifiers from your device when needed to link notes to contacts.</li>
+          <li><strong>Call-related information</strong> - phone state and completed call events, plus the last completed call’s phone number when available and permitted by Android.</li>
+          <li><strong>Notes and reminders</strong> - notes you create, edit, and delete, reminder date and time, and note status values such as NEW, FOLLOW_UP, WAITING, and DONE.</li>
+          <li><strong>Account and subscription information</strong> - a Firebase Authentication user identifier, subscription and entitlement status from RevenueCat, and purchase-related metadata needed to validate premium access.</li>
+          <li><strong>Device and diagnostic information</strong> - crash logs and diagnostic data through Firebase Crashlytics, and usage analytics through Firebase Analytics if enabled.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>2. How We Use Information</h2>
+        <ul>
+          <li>Create and manage call notes.</li>
+          <li>Match notes to existing contacts and create new contacts when you choose to do so.</li>
+          <li>Show follow-up reminders.</li>
+          <li>Detect completed calls and prompt you to add a note.</li>
+          <li>Back up and restore notes if you enable cloud backup.</li>
+          <li>Validate premium subscription status.</li>
+          <li>Improve stability, reliability, and performance.</li>
+          <li>Diagnose crashes and technical issues.</li>
+        </ul>
+        <p style="margin-top: 10px;">We do not use your personal data for advertising. We do not sell your personal data.</p>
+      </div>
+
+      <div class="section">
+        <h2>3. Local Storage</h2>
+        <p>
+          The app stores notes and related data locally on your device using a local database. If you do not enable
+          backup, your note data remains on your device.
+        </p>
+        <p style="margin-top: 10px;">
+          You can delete notes and contacts created by the app through the app or through Android system settings for
+          contacts, depending on where the data was saved.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>4. Cloud Backup and Sync</h2>
+        <p>
+          If you enable backup or sign in, the app may store a copy of your data in cloud services associated with your
+          account.
+        </p>
+        <ul style="margin-top: 10px;">
+          <li>Firebase Authentication for identity</li>
+          <li>Firebase Firestore for backup storage</li>
+          <li>RevenueCat for subscription entitlement validation</li>
+        </ul>
+        <p style="margin-top: 10px;">
+          When cloud backup is enabled, your data may be transferred to and stored on servers operated by Google and
+          RevenueCat or their infrastructure providers, subject to their respective privacy policies.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>5. Permissions</h2>
+        <p>We may request the following Android permissions:</p>
+        <ul style="margin-top: 10px;">
+          <li><strong>READ_CONTACTS</strong> and <strong>WRITE_CONTACTS</strong> - used to find existing contacts, avoid duplicates, and create a new contact when a number is not saved yet.</li>
+          <li><strong>READ_PHONE_STATE</strong> and <strong>READ_CALL_LOG</strong> - used only to detect completed calls and prepare the after-call follow-up workflow.</li>
+          <li><strong>POST_NOTIFICATIONS</strong> - used to show reminders and follow-up notifications.</li>
+          <li><strong>INTERNET</strong> and <strong>ACCESS_NETWORK_STATE</strong> - used for optional cloud backup, analytics, crash reporting, and subscription validation.</li>
+        </ul>
+        <p style="margin-top: 10px;">We request only the permissions required for the app’s core features. You can deny permissions, but some features may not work.</p>
+      </div>
+
+      <div class="section">
+        <h2>6. Third-Party Services</h2>
+        <ul>
+          <li><strong>Google Firebase</strong> - Authentication, Firestore, Analytics, and Crashlytics.</li>
+          <li><strong>RevenueCat</strong> - subscription management, entitlement validation, and purchase status synchronization.</li>
+        </ul>
+        <p style="margin-top: 10px;">
+          These providers may process data in accordance with their own privacy policies and terms.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>7. Data Retention</h2>
+        <ul>
+          <li>Local note data remains on your device until you delete it or uninstall the app.</li>
+          <li>Cloud backup data is retained until you delete it, delete your account, or request removal, subject to technical and legal retention requirements.</li>
+          <li>Crash logs and analytics data are retained according to Firebase’s settings and policies.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>8. Data Sharing</h2>
+        <p>We share data only as needed to provide the app’s services:</p>
+        <ul style="margin-top: 10px;">
+          <li>with Google Firebase for authentication, backup, analytics, and crash reporting</li>
+          <li>with RevenueCat for subscription validation and entitlement management</li>
+          <li>with Google Play services for app distribution and subscription-related functionality</li>
+        </ul>
+        <p style="margin-top: 10px;">We do not sell your data or share it for advertising purposes.</p>
+      </div>
+
+      <div class="section">
+        <h2>9. Your Choices</h2>
+        <ul>
+          <li>Decline permissions, although some features may stop working.</li>
+          <li>Disable backup if you do not want cloud storage.</li>
+          <li>Delete notes and contacts created by the app.</li>
+          <li>Uninstall the app to remove local data from your device.</li>
+          <li>Contact us to request deletion of cloud-backed data, if applicable.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>10. Children’s Privacy</h2>
+        <p>The app is not intended for children under 13 years of age. We do not knowingly collect personal data from children under 13.</p>
+      </div>
+
+      <div class="section">
+        <h2>11. Security</h2>
+        <p>We use reasonable technical and organizational measures to help protect your data. However, no method of storage or transmission is completely secure.</p>
+      </div>
+
+      <div class="section">
+        <h2>12. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. If we make material changes, we will update the effective date and, where appropriate, notify users in the app.</p>
+      </div>
+
+      <div class="section">
+        <h2>13. Contact Us</h2>
+        <div class="callout">
+          <p><strong>[Developer / Company Name]</strong></p>
+          <p><strong>Email:</strong> [EMAIL]</p>
+          <p><strong>Website / support:</strong> [URL]</p>
+          <p><strong>Postal address:</strong> [ADDRESS]</p>
+        </div>
+      </div>
+    </section>
+
+    <p class="footer">
+      Replace placeholders in <code>[brackets]</code> before publishing this page on GitHub Pages.
+    </p>
+  </main>
+</body>
+</html>
