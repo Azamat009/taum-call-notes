@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <title>Privacy Policy | TAUM — Call notes & Follow-ups</title>
+  <title>Privacy Policy | TAUM Assistant — Incoming clients & Follow-ups</title>
   <style>
     :root {
       --bg: #f3f8ff;
@@ -196,11 +196,11 @@
 <body>
   <main class="page">
     <section class="hero" aria-labelledby="policy-title">
-      <span class="badge">TAUM — Call notes & Follow-ups</span>
+      <span class="badge">TAUM Assistant — Incoming clients & Follow-ups</span>
       <h1 id="policy-title">Privacy Policy</h1>
       <p>
-        This page explains how the app accesses, uses, stores, and shares data when you use call notes, reminders,
-        contacts, cloud backup, and subscription features.
+        This page explains how the app accesses, uses, stores, and shares data when you use incoming caller
+        identification, lead notes, reminders, WhatsApp actions, contacts, cloud backup, and subscription features.
       </p>
       <div class="meta" aria-label="Policy meta">
         <span class="pill">Effective date: <strong>April 27, 2026</strong></span>
@@ -215,7 +215,7 @@
         <h3>We may access and collect:</h3>
         <ul>
           <li><strong>Contact information</strong> - contact names, phone numbers, and contact identifiers from your device when needed to link notes to contacts.</li>
-          <li><strong>Call-related information</strong> - phone state and completed call events, plus the last completed call’s phone number when available and permitted by Android.</li>
+          <li><strong>Incoming call-related information</strong> - incoming caller numbers provided through Android CallScreeningService, phone state, completed call events, and the last completed call’s phone number when available and permitted by Android.</li>
           <li><strong>Notes and reminders</strong> - notes you create, edit, and delete, reminder date and time, and note status values such as NEW, FOLLOW_UP, WAITING, and DONE.</li>
           <li><strong>Account and subscription information</strong> - a Firebase Authentication user identifier, subscription and entitlement status from RevenueCat, and purchase-related metadata needed to validate premium access.</li>
           <li><strong>Device and diagnostic information</strong> - crash logs and diagnostic data through Firebase Crashlytics, and usage analytics through Firebase Analytics if enabled.</li>
@@ -225,10 +225,11 @@
       <div class="section">
         <h2>2. How We Use Information</h2>
         <ul>
-          <li>Create and manage call notes.</li>
+          <li>Create and manage incoming client notes.</li>
           <li>Match notes to existing contacts and create new contacts when you choose to do so.</li>
           <li>Show follow-up reminders.</li>
-          <li>Detect completed calls and prompt you to add a note.</li>
+          <li>Identify incoming callers, classify lead status, and prompt you to add a note after the call.</li>
+          <li>Open WhatsApp when you choose that notification action.</li>
           <li>Back up and restore notes if you enable cloud backup.</li>
           <li>Validate premium subscription status.</li>
           <li>Improve stability, reliability, and performance.</li>
@@ -271,7 +272,8 @@
         <p>We may request the following Android permissions:</p>
         <ul style="margin-top: 10px;">
           <li><strong>READ_CONTACTS</strong> and <strong>WRITE_CONTACTS</strong> - used to find existing contacts, avoid duplicates, and create a new contact when a number is not saved yet.</li>
-          <li><strong>READ_PHONE_STATE</strong> and <strong>READ_CALL_LOG</strong> - used only to detect completed calls and prepare the after-call follow-up workflow.</li>
+          <li><strong>Call screening role</strong> - used to identify incoming caller numbers through Android CallScreeningService. The app does not replace your dialer, control calls, record calls, or draw overlays over the call screen.</li>
+          <li><strong>READ_PHONE_STATE</strong> and <strong>READ_CALL_LOG</strong> - used only to detect completed incoming calls and prepare the after-call follow-up workflow.</li>
           <li><strong>POST_NOTIFICATIONS</strong> - used to show reminders and follow-up notifications.</li>
           <li><strong>INTERNET</strong> and <strong>ACCESS_NETWORK_STATE</strong> - used for optional cloud backup, analytics, crash reporting, and subscription validation.</li>
         </ul>
